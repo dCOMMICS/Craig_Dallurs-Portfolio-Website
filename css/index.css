@@ -426,8 +426,21 @@ footer h3 {
 } */
 
 
-@media screen (max-width: 1231px) {
-    h1 {
-        color: red;
+@media  (min-width: 600px) {
+    .logo {
+        width: 100%;
+        display: flex;
     }
+        /* .about {
+            width: 80%;
+        }
+        .footer_socials {
+            width: 100%;
+            display: flex;
+        } */
+        /* .footerc {
+            width: 100%;
+            display: flex;
+
+        } */
 }
