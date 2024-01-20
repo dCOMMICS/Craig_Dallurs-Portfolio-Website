@@ -146,6 +146,9 @@ p{
     position: relative;
     transition: all 1s ease-in-out;
     width: 35rem;
+    animation: fade;
+    animation-timeline: view();
+    mix-blend-mode: plus-lighter;
 
 
     
